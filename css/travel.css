@@ -160,3 +160,165 @@ h1 {
     font-size: 16px;
     margin: 10px auto;
 }
+.service_section {
+    background: rgba(0, 88, 84, 0.06);
+    height: 733px;
+    position: relative;
+
+}
+
+.map_background_best_service{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_description {
+    padding: 61px 0;
+    width: 518px;
+
+}
+.service_description h2 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.service_description p {
+    font-size: 16px;
+    text-align: center;
+    margin: 19px auto;
+}
+
+.service_information {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 141px;
+}
+
+.calendar {
+    width: 250px;
+    height: 250px;
+    display: block;
+    background: #ffff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stadistics{
+    width: 250px;
+    height: 250px;
+    display: block;
+    background: #ffff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.historys{
+    width: 250px;
+    height: 250px;
+    display: block;
+    background: #ffff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.maps {
+    width: 250px;
+    height: 250px;
+    display: block;
+    background: #ffff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calendar img {
+    margin: 43px 0 29px 0;
+}
+
+.stadistics img {
+    margin: 42px 0 32px 0;
+}
+
+.maps img {
+    margin: 42px 0 35px 0;
+}
+
+.historys img {
+    margin: 43px 0 42px 0;
+}
+
+.calendar h2 {
+    font-size: 36px ;
+    width: 76px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stadistics h2 {
+    font-size: 36px ;
+    width: 88px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.maps h2 {
+    font-size: 36px ;
+    width: 102px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.historys h2 {
+    font-size: 36px ;
+    width: 76px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.calendar p {
+    font-size: 20px;
+    width: 99px;
+    height: 54px;
+    text-align: center;
+}
+
+.stadistics p {
+    font-size: 20px;
+    width: 91px;
+    height: 54px;
+    text-align: center;
+}
+
+.maps p {
+    font-size: 20px;
+    width: 126px;
+    height: 27px;
+    text-align: center;
+}
+.historys p {
+    font-size: 20px;
+    width: 129px;
+    height: 27;
+    text-align: center;
+}
