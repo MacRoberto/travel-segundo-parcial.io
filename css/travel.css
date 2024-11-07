@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Open Sans";
-}
-
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
 header {
     width: 100%;
     position: fixed;
@@ -100,6 +99,12 @@ header {
     color: #00A651;
 }
 
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+  
 .container {
     text-align: center;
 }
