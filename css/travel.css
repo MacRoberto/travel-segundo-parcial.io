@@ -130,13 +130,11 @@ h1 {
     padding: 15px 30px 30px 30px;
     border-radius: 15px;
     gap: 20px;
-}
-
-.gray {
     background-color: #F9F9F9;
+    transition: all 0.5s ease;
 }
 
-.white {
+.service-box:hover {
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.263);
 }
@@ -553,12 +551,11 @@ gap: 141px;
     color: #00A651;
   }
 
-  .Ventajas_signo_de_interrogacion {
+.Ventajas_signo_de_interrogacion {
     margin-top: 72px;
-    margin-bottom: 75px;
 }
 
-.OtraClaseNoma img{
+.LaDoña {
     background-color: #fff ;
     background-repeat: no-repeat;
     background-position: end;
@@ -582,7 +579,7 @@ gap: 141px;
     margin-bottom: 10px;
     margin-left: 13%;
     row-gap: 67px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .imagengege {
@@ -604,9 +601,10 @@ gap: 141px;
 
 .contenido_chistoso {
     justify-content: left;
-    display:flex;
+    display: flex;
     width: 548px;
     height: 88.79px;
+    flex-direction: row;
 }
 
 .contenido_chistoso h2 {
