@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +9,24 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-  }
-  
+}
+
 header {
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    z-index: 2;
+}
+
+.headerBackground {
+    height: 100px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .menu {
@@ -50,6 +61,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero_description_Vignete {
@@ -62,7 +75,7 @@ header {
 }
 
 .hero_description {
-   width: 700px;
+    width: 700px;
 }
 
 .hero_description h1 {
@@ -104,8 +117,8 @@ header {
     display: flex;
     align-items: center;
     gap: 34px;
-  }
-  
+}
+
 .container {
     text-align: center;
 }
@@ -159,6 +172,7 @@ h1 {
     font-size: 16px;
     margin: 10px auto;
 }
+
 .service_section {
     background: rgba(0, 88, 84, 0.06);
     height: 733px;
@@ -166,7 +180,7 @@ h1 {
 
 }
 
-.map_background_best_service{
+.map_background_best_service {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -178,16 +192,19 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
 .service_description {
     padding: 61px 0;
     width: 518px;
 
 }
+
 .service_description h2 {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
 }
+
 .service_description p {
     font-size: 16px;
     text-align: center;
@@ -195,10 +212,10 @@ h1 {
 }
 
 .service_information {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 141px;
 }
 
 .calendar {
@@ -212,7 +229,7 @@ gap: 141px;
     flex-direction: column;
 }
 
-.stadistics{
+.stadistics {
     width: 250px;
     height: 250px;
     display: block;
@@ -221,10 +238,10 @@ gap: 141px;
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+
 }
 
-.historys{
+.historys {
     width: 250px;
     height: 250px;
     display: block;
@@ -264,7 +281,7 @@ gap: 141px;
 }
 
 .calendar h2 {
-    font-size: 36px ;
+    font-size: 36px;
     width: 76px;
     height: 60px;
     font-weight: 700;
@@ -272,7 +289,7 @@ gap: 141px;
 }
 
 .stadistics h2 {
-    font-size: 36px ;
+    font-size: 36px;
     width: 88px;
     height: 60px;
     font-weight: 700;
@@ -280,7 +297,7 @@ gap: 141px;
 }
 
 .maps h2 {
-    font-size: 36px ;
+    font-size: 36px;
     width: 102px;
     height: 60px;
     font-weight: 700;
@@ -288,7 +305,7 @@ gap: 141px;
 }
 
 .historys h2 {
-    font-size: 36px ;
+    font-size: 36px;
     width: 76px;
     height: 60px;
     font-weight: 700;
@@ -315,6 +332,7 @@ gap: 141px;
     height: 27px;
     text-align: center;
 }
+
 .historys p {
     font-size: 20px;
     width: 129px;
@@ -322,8 +340,8 @@ gap: 141px;
     text-align: center;
 }
 
-.popular{
-    background-color: #fff ;
+.popular {
+    background-color: #fff;
     background-image: url(../img/popular-map.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -331,71 +349,72 @@ gap: 141px;
     margin-top: 83px;
 }
 
-.cajita{
+.cajita {
     flex-direction: column;
-    display: flex ; 
-    align-items: end;    
+    display: flex;
+    align-items: end;
     margin-right: 100px;
 }
 
-.cajita div{
+.cajita div {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
     border-radius: 6px;
     width: 659px;
-   align-items: center;
+    align-items: center;
     box-shadow: 3px 3px 10px 0px #00000014;
     margin-top: 42px;
     margin-bottom: 10px;
 }
 
-.desc{
+.desc {
     flex-wrap: wrap;
     width: 100px;
 }
 
-.gothailand{
+.gothailand {
     transition: all 0.5s ease;
 }
 
 .gothailand:hover {
-   transform: scale(2.2);
+    transform: scale(2.2);
 }
 
-.indonesia h3{
+.indonesia h3 {
     flex-wrap: wrap;
     width: 100px;
 }
 
-.goindonesia{
+.goindonesia {
     transition: all 0.5s ease;
 }
 
 .goindonesia:hover {
-   transform: scale(2.2);
+    transform: scale(2.2);
 }
 
-.newzeland h3{
+.newzeland h3 {
     flex-wrap: wrap;
     width: 100px;
 }
 
-.gonew{
+.gonew {
     transition: all 0.5s ease;
 }
 
-.gonew:hover{
-   transform: scale(2.2);
+.gonew:hover {
+    transform: scale(2.2);
 }
 
-.Packages{
+.Packages {
     position: center;
     width: 100%;
     height: 1119px;
     background: #ecf1f0;
-  }
-  .Packages h1{
+}
+
+.Packages h1 {
     color: #000;
     margin: 0px;
     padding: 25px;
@@ -403,20 +422,20 @@ gap: 141px;
     font-weight: 720;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-  }
-  
-  .Bottoms {
+}
+
+.Bottoms {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    gap: 60px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 60px;
     margin: 100px;
     margin-top: 20px;
-    justify-content: center; 
-    align-items: flex-start; 
+    justify-content: center;
+    align-items: flex-start;
     position: absolute;
-  }
-  
-  .Bottoms .btn_gray {
+}
+
+.Bottoms .btn_gray {
     width: 180px;
     height: 60px;
     background: #666;
@@ -430,105 +449,109 @@ gap: 141px;
     color: #f0f0f0;
     text-align: center;
     transition: all 0.5s ease;
-  }
-  .Bottoms .btn_gray:hover{
+}
+
+.Bottoms .btn_gray:hover {
     background: #00A651;
     color: #fff;
-  }
-  
-  .Container{
+}
+
+.Container {
     display: flex;
     margin: 74px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 74px;
     position: relative;
-  }
-  
-  .white_container{
+}
+
+.white_container {
     position: relative;
     bottom: 190px;
     background: #fff;
-    border-radius:  20px;
+    border-radius: 20px;
     height: 180px;
     width: 435px;
-  }
-  
-  .Places img{
+}
+
+.Places img {
     position: relative;
     bottom: 27px;
     width: 435px;
     height: 485px;
     border-radius: 20px;
-  }
-  
-  .Places h1{
+}
+
+.Places h1 {
     font-size: 20px;
     font-weight: 400;
     position: relative;
     right: 135px;
     bottom: 20px;
-  }
-  
-  .Places h2{
+}
+
+.Places h2 {
     font-size: 20px;
     font-weight: 400;
     position: relative;
     left: 300px;
     bottom: 75px;
-  }
-  
-  .Places p{
+}
+
+.Places p {
     font-size: 16px;
     position: relative;
     left: 1px;
     bottom: 60px;
     padding: 5px;
-  }
-  
-  .Text{
+}
+
+.Text {
     display: flex;
-  }
-  
-  .Text img{
+}
+
+.Text img {
     position: relative;
     bottom: 15px;
     width: 20px;
     height: 20px;
-  }
-  
-  .Text h3{
+}
+
+.Text h3 {
     position: relative;
     left: 5px;
     bottom: 18px;
     font-size: 20px;
     font-weight: 600;
-  }
-  .Text h4{
+}
+
+.Text h4 {
     position: relative;
     left: 210px;
     bottom: 15px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
-  }
-  .Text h5{
+}
+
+.Text h5 {
     position: relative;
     left: 260px;
     bottom: 15px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
-  }
-  
-  .Text a{
+}
+
+.Text a {
     color: inherit;
-  }
-  .Text a:hover{
+}
+
+.Text a:hover {
     color: inherit;
     transform: scale(1.1);
-  }
-  
-  .btn_green3{
+}
+
+.btn_green3 {
     position: absolute;
     left: 620px;
     bottom: 130px;
@@ -545,19 +568,19 @@ gap: 141px;
     text-decoration: none;
     padding: 20px 0;
     transition: all 0.5s ease;
-  }
-  
-  .btn_green3:hover{
+}
+
+.btn_green3:hover {
     background-color: #fff;
     color: #00A651;
-  }
+}
 
 .Ventajas_signo_de_interrogacion {
     margin-top: 72px;
 }
 
 .LaDoña {
-    background-color: #fff ;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-position: end;
     display: flex;
@@ -612,57 +635,58 @@ gap: 141px;
     font-size: 16px;
     font-weight: bold;
 }
-.people_say_section{
-    background:rgba(0, 88, 84, 0.06) ;
+
+.people_say_section {
+    background: rgba(0, 88, 84, 0.06);
     width: 100%;
     height: 771px;
-  }
-  
-  .people_say{
-    display: flex;
-    justify-content: center;  
-  }
+}
 
-  .people_say_description{
+.people_say {
+    display: flex;
+    justify-content: center;
+}
+
+.people_say_description {
     height: 54px;
     width: 524px;
     padding-top: 133px;
     position: absolute;
-  }
+}
 
-  .people_say_description h2{
+.people_say_description h2 {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-  }
+}
 
-  .people_say_opinions{
+.people_say_opinions {
     overflow: hidden;
     width: 100vw;
-  }
+}
 
-  .people_say_image_slider{
+.people_say_image_slider {
     overflow: hidden;
     padding-top: 238px;
     justify-content: center;
     display: flex;
     position: relative;
-  }
+}
 
-  .people_say_image_slider p{
-    font-family:"Poppins",sans-serif;
+.people_say_image_slider p {
+    font-family: "Poppins", sans-serif;
     position: absolute;
     bottom: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 22px;
     font-weight: 600;
-  }
+}
 
-  .people_say_image_slider img{
+.people_say_image_slider img {
     height: 597px;
     width: 3128px;
-  }
+}
 
 .suscribe {
     height: 612.03px;
@@ -671,7 +695,7 @@ gap: 141px;
     background-position: center;
 }
 
-.cajita-ultimate{
+.cajita-ultimate {
     height: 612.03px;
     display: flex;
     justify-content: center;
@@ -695,7 +719,7 @@ gap: 141px;
     display: flex;
 }
 
-.mail{
+.mail {
     padding-left: 25px;
     background-image: url(../img/mail.png);
     background-position: 10px;
@@ -711,7 +735,7 @@ gap: 141px;
     margin-top: 20px;
 }
 
-.btn_green4{
+.btn_green4 {
     background-color: #00a651;
     border-radius: 10px;
     color: #fff;
@@ -755,7 +779,8 @@ gap: 141px;
     margin-bottom: 10px;
 }
 
-.footer p, .footer a {
+.footer p,
+.footer a {
     color: grey;
     text-decoration: none;
     font-size: 25px;
